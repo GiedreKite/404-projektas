@@ -1,0 +1,73 @@
+.kalnai {
+    height: 100vh;
+    justify-content: center;
+    position: relative;
+}
+
+.main {
+    background-color: rgba(255, 255, 255, 0.5);
+    height: 80vh;
+    width: 100vh;
+    position: absolute;
+    top: 100px;
+    right: 100px; 
+    border-radius: 40px;
+    box-shadow: 10px 10px 50px 10px;
+}
+
+.close {
+    height: 30px;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+
+.slidininkas {
+    height: 350px;
+    position: absolute;
+    top: 155px;
+    right: 195px;
+}
+
+.antraste {
+    float: right;
+    padding: 20px;
+    height: 300px;
+    width: 300px;
+}
+
+.main-text {
+    font-size: 150px;
+    font-weight: 600px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 0;
+}
+
+.text-ops {
+    font-size: 50px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 0;
+}
+
+.text-last {
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 0;
+}
+
+.button {
+    background-color: rgba(255, 255, 255, 0.5);
+    margin-top: 100px;
+    padding: 10px 15px;
+    border-radius: 30px;
+    font-size: 15px;
+    box-shadow: 0 0 10px 0;
+    border: none;
+    float:left;
+}
+
+.button:hover {
+    border: 1px solid white;
+    color: rgb(43, 3, 3);
+    cursor: pointer;
+}
