@@ -66,8 +66,9 @@
     float:left;
 }
 
-.button:hover {
+.antraste.button:hover {
     border: 1px solid white;
     color: rgb(43, 3, 3);
     cursor: pointer;
+    background-color: black;
 }
